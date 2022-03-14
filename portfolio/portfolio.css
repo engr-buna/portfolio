@@ -1,0 +1,193 @@
+body {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    margin: 0;
+    color: #40514E;
+}
+
+.container1 {
+    background-color: #56BBF1;
+}
+
+container2 {
+    
+}
+
+.container3 {
+    position: relative;
+    padding: 50px 0 30px;
+    background-color: pink;
+    margin-top: 55px;
+}
+
+.airplane1 {
+    width: 100px;
+    position: relative;
+    left: 25%;
+    margin-top: 35px;
+}
+
+.airplane2 {
+    width: 100px;
+    position: absolute;
+    left: 20%;
+}
+
+.mountain {
+    width: 500px;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #11999E;
+}
+
+h4 {
+    ;
+
+}
+p {
+    line-height: 2;
+    font-size: 0.85rem;
+}
+
+.profileImage {
+    width: 200px;
+    margin: 100px auto 0px;
+}
+
+.hello {
+    margin: 25px, auto, 35px;
+}
+
+.intro {
+    width: 40%;
+    margin: 0px auto;
+}
+
+hr {
+    
+    border: grey 5px;
+    border-style: dotted none none;
+    width: 10%;
+    margin: 75px auto;
+}
+
+.skillsImage {
+    width: 150px;
+}
+
+.hobbiesImage {
+    width: 150px;
+}
+
+.coding {
+    width: 50%;
+    margin: 70px auto 150px auto;
+    text-align: left
+}
+
+.codingImage {
+    float: left;
+    margin-right: 40px;
+    transition: all 4s ease;
+ }
+
+ .autocad {
+    width: 50%;
+    margin: 150px auto;
+    text-align: left
+}
+
+.autocadImage {
+    float: right;
+    margin-left: 40px;
+ }
+
+ .academicExcellence {
+    width: 50%;
+    margin: 150px auto 0px auto;
+    text-align: left
+}
+
+.acadsImage {
+    float: left;
+    margin-right: 40px;
+ }
+
+ .myHobbies {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     margin: 50px auto 0px auto;
+ }
+
+ .watching {
+    width: 25%;
+    margin: 0px 15px 0 15px;
+ }
+
+ .biking {
+    width: 25%;
+    margin: 0px 15px 0 15px;
+ }
+
+ .playingComputerGames{
+    width: 25%;
+    margin: 0px 15px 0 15px;
+ }
+
+ .codingImage:hover {
+    transform: rotate(360deg);
+ }
+ .autocadImage:hover {
+     animation: rotate .75s linear infinite;
+ }
+ .acadsImage:hover {
+    animation: headbang 3s ease infinite alternate;
+ }
+
+ @keyframes rotate {
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(360deg)}
+ }
+
+ @keyframes headbang {
+    0% {transform: rotate(30deg)}
+    10% {transform: rotate(-15deg)}
+    20% {transform: rotate(45deg)}
+    30% {transform: rotate(-35deg)}
+    60% {transform: rotate(60deg)}
+    70% {transform: rotate(-120deg)}
+    85% {transform: rotate(30deg)}
+    100% {transform: rotate(-90deg)}
+ }
+
+ .contact {
+     text-decoration: none;
+     color: #11999E;
+     font-family: 'Montserrat', sans-serif;
+     margin: 30px 20px;
+ }
+
+ .contact:hover {
+    color: #EAF6F6;
+ }
+
+
